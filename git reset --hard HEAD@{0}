@@ -1,0 +1,18 @@
+[33m755ed3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{0}: reset: moving to ORIG_HEAD
+[33m5012c75[m HEAD@{1}: commit: Fix Bug Kategori Page + Admin
+[33m1cd23ce[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{2}: commit: Page Login Update
+[33m755ed3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{3}: checkout: moving from people to master
+[33mc1aced5[m[33m ([m[1;32mpeople[m[33m)[m HEAD@{4}: commit: Author
+[33m755ed3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{5}: checkout: moving from master to people
+[33m755ed3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{6}: checkout: moving from main to master
+[33mcd7e69c[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{7}: checkout: moving from master to main
+[33m755ed3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{8}: checkout: moving from main to master
+[33mcd7e69c[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{9}: checkout: moving from main to main
+[33mcd7e69c[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{10}: checkout: moving from master to main
+[33m755ed3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{11}: checkout: moving from main to master
+[33mcd7e69c[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{12}: checkout: moving from master to main
+[33m755ed3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{13}: merge initial: Fast-forward
+[33m9e0178f[m HEAD@{14}: checkout: moving from initial to master
+[33m755ed3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{15}: commit: Admin
+[33m9e0178f[m HEAD@{16}: checkout: moving from master to initial
+[33m9e0178f[m HEAD@{17}: commit (initial): initial commit
