@@ -78,7 +78,7 @@ $layout = $article['layout'];
                     <a class="kategori" id="keuangan" href="../Kategori-Page/Kkeuangan.php">KEUANGAN</a>
                     <a class="kategori" id="olahraga" href="../Kategori-Page/Kolahraga.php">OLAHRAGA</a>
                     <a class="kategori" id="internasional" href="../Kategori-Page/Kinternasional.php">INTERNASIONAL</a>
-                    <a class="kategori" id="budaya" href="../Kategori-Page/Kbudaya.php">BUDAYA</a>
+                    <a class="kategori" id="budaya" href="../budaya.php">BUDAYA</a>
                 </nav>
             </div>
             <div class="kanan-nav">

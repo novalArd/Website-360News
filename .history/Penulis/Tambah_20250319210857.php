@@ -105,18 +105,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- Sidebar -->
     <aside class="sidebar">
     <div class="kembali-btn">
-      <a href="../beranda.php"><button>Kembali</button></a>
-    </div>
-    <h3>Dashboard</h3>
+        <a href="../beranda.php"><button>Kembali</button></a>
+      </div>
+      <h3>Dashboard</h3>
       <ul>
-        <li><a id="profil" href="Profile.php">Profile</a></li>
-        <li><a id="tambahArtikel" href="Tambah.php">Tambah Artikel</a></li>
-        <li><a id="editArtikel" href="edit_artikel.php">Edit Artikel</a></li>
-        <li><a id="artikelSaya" href="artikel_saya.php">Artikel Saya</a></li>
-        <li><a id="hapusArtikel" href="hapus_artikel.php">Hapus Artikel</a></li>
+        <li><a href="Profile.php" class="active">Profil</a></li>
+        <li><a href="Tambah.php">Tambah Artikel</a></li>
+        <li><a href="edit_artikel.php">Edit Artikel</a></li>
+        <li><a href="artikel_saya.php">Artikel Saya</a></li>
+        <li><a href="hapus_artikel.php">Hapus Artikel</a></li>
       </ul>
-    <a href="../logout.php" class="logout">Logout</a>
-  </aside>
+      <a href="../logout.php" class="logout">Logout</a>
+    </aside>
 
     <!-- Main Content -->
     <main class="main-content">
