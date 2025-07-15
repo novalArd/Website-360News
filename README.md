@@ -1,6 +1,7 @@
 # 🌐 Website-360News
 
-**Website-360News** adalah aplikasi web berita sederhana dan interaktif yang dikembangkan menggunakan PHP, HTML, CSS, dan JavaScript tanpa framework. Website ini menampilkan berita dari berbagai kategori dalam tampilan yang responsif dan mudah digunakan.
+Selamat datang di repository **Website 360News**!
+Proyek ini adalah aplikasi web sederhana untuk menampilkan berita. Berikut adalah langkah-langkah untuk mengatur dan menjalankan proyek ini di komputer lokal Anda.
 
 ---
 
