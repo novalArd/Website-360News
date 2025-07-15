@@ -89,3 +89,15 @@ Jika Anda ingin menambahkan fitur, memperbaiki bug, atau menyempurnakan tampilan
 
 ---
 
+## 📌 Catatan Tambahan
+Jika file database **news_management.sql** tidak dapat digunakan atau terjadi kendala saat import, Anda dapat menggunakan file alternatif berikut:
+
+🔗 Link Google Drive:
+https://drive.google.com/drive/folders/1fWHUJfy497Yj_LsUZcknm5_eIs_67aU8?usp=sharing
+
+🔧 Langkah-langkah:
+- Unduh file database dari link di atas.
+
+- Salin file tersebut ke dalam folder utama proyek Website-360News.
+
+- Gunakan file ini untuk melakukan import ke database melalui phpMyAdmin atau tool serupa.
