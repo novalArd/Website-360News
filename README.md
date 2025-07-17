@@ -76,8 +76,12 @@ Silakan gunakan, modifikasi, dan distribusikan kembali dengan tetap mencantumkan
 ## 🙋 Tentang Pengembang
 
 **Noval Ardiansyah**  
-- GitHub: [https://github.com/novalArd](https://github.com/novalArd)
+- GitHub: https://github.com/novalArd
 - Email: novalardiansyah2820@gmail.com
+
+**Agustino Edward Hartono**
+- Github: https://github.com/Edho23
+- Email: agustinoedwardhartono@gmail.com
 
 ---
 
