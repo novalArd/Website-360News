@@ -48,19 +48,22 @@ Proyek ini adalah aplikasi web sederhana untuk menampilkan berita. Berikut adala
 
 ```
 Website-360News/
-├── Admin/              ← Halaman & pengelolaan admin (CRUD artikel, verifikasi, profil)
-├── Penulis/            ← Modul untuk penulis (artikel, statistik, upload gambar)
-├── pengguna/           ← Halaman profil pengguna biasa
-├── Profile/            ← Alternatif tampilan profil/statistik (versi HTML)
-├── Kategori-Bisnis/    ← Template HTML per kategori berita (tanpa PHP)
-├── Kategori-Page/      ← Halaman berita per kategori (dengan PHP)
-├── assets/             ← Gambar ilustrasi, ikon, dan file statis umum
-├── gambar/             ← Kumpulan gambar khusus, ikon, dan ilustrasi
-├── .vscode/            ← Konfigurasi workspace VSCode
-├── beranda.php         ← Halaman utama situs
-├── beranda.css         ← Gaya umum halaman
-├── news_management.sql ← Database (Silahkan lihat bagian akun untuk lanjut login)
-└── README.md           ← Dokumentasi proyek
+├── Admin/                    ← Halaman & pengelolaan admin (CRUD artikel, verifikasi, profil)
+├── Penulis/                  ← Modul untuk penulis (artikel, statistik, upload gambar)
+├── pengguna/                 ← Halaman profil pengguna biasa
+├── Profile/                  ← Alternatif tampilan profil/statistik
+├── Kategori_HTML_Version/    ← Template HTML per kategori berita (tanpa PHP)
+├── Kategori-Page/            ← Halaman berita per kategori (dengan PHP)
+├── Login-daftar              ← Page login, daftar, lupa password, dll
+├── assets/                   ← Gambar ilustrasi, ikon, dan file statis umum
+├── gambar/                   ← Kumpulan gambar dari artikel, ikon, dan ilustrasi
+├── .vscode/                  ← Konfigurasi workspace VSCode
+├── beranda.php               ← Halaman utama situs
+├── beranda.css               ← Gaya halaman Beranda
+├── database.php              ← Koneksi Database
+├── news_management.sql       ← Database (Silahkan lihat bagian akun untuk lanjut login)
+├── README.md                 ← Dokumentasi proyek
+└── temp/                     ← File sementara (hanya sebagai tempat file yang akan dihapus)
 
 ```
 
@@ -94,12 +97,6 @@ Jika Anda ingin menambahkan fitur, memperbaiki bug, atau menyempurnakan tampilan
 - Ajukan pull request ✨
 
 ---
-
-## 📌 Catatan Tambahan
-Jika file database **news_management.sql** tidak dapat digunakan atau terjadi kendala saat import, Anda dapat menggunakan file alternatif berikut:
-
-🔗 Link Google Drive:
-https://drive.google.com/drive/folders/1fWHUJfy497Yj_LsUZcknm5_eIs_67aU8?usp=sharing
 
 🔧 Langkah-langkah:
 - Unduh file database dari link di atas.
