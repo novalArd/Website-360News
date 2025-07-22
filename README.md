@@ -97,10 +97,3 @@ Jika Anda ingin menambahkan fitur, memperbaiki bug, atau menyempurnakan tampilan
 - Ajukan pull request ✨
 
 ---
-
-🔧 Langkah-langkah:
-- Unduh file database dari link di atas.
-
-- Salin file tersebut ke dalam folder utama proyek Website-360News.
-
-- Gunakan file ini untuk melakukan import ke database melalui phpMyAdmin atau tool serupa.
