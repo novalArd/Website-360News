@@ -7,9 +7,9 @@ togglePassword.addEventListener('click', () => {
     passwordInput.setAttribute('type', type);
 
     if (type === 'password') {
-        togglePassword.src = 'gambar/hide.png'; 
+        togglePassword.src = '/php-main/gambar/hide.png'; 
     } else {
-        togglePassword.src = 'gambar/view.png'; 
+        togglePassword.src = '/php-main/gambar/view.png'; 
     }
 });
 

@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../database.php';
+require '../login-daftar/database.php';
 
 if (!isset($_GET['id'])) {
     die("Artikel tidak ditemukan.");

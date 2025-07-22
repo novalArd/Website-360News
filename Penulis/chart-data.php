@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 
 
-require_once '../database.php';
+require_once '../login-daftar/database.php';
 
 
 if (!isset($conn)) {

@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../database.php';
+require '../login-daftar/database.php';
 
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     die("Akses ditolak. Harap login sebagai admin.");
@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['article_id'])) {
           <li class="editArtikel"><a href="edit_artikel_admin.php">Edit Artikel</a></li>
           <li class="semuaArtikel"><a href="artikel_saya_admin.php">Semua Artikel</a></li>
       </ul>
-      <a href="../logout.php" class="logout">Logout</a>
+      <a href="../login-daftar/logout.php" class="logout">Logout</a>
     </aside>
 
     <!-- Main Content -->

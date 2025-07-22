@@ -11,7 +11,7 @@ document.querySelector('.login-btn button').addEventListener('click', function()
     .then(data => {
         if (data.status === 'success') {
             alert(data.message);
-            window.location.href = 'beranda.php';
+            window.location.href = '/php-main/beranda.php';
         } else {
             alert(data.message);
         }

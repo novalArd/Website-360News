@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../database.php';
+require '../login-daftar/database.php';
 
 header('Content-Type: application/json');
 

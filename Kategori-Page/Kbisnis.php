@@ -4,7 +4,7 @@ session_start();
 $loggedIn = isset($_SESSION['user_id']);
 $username = $loggedIn ? $_SESSION['username'] : '';
 
-require '../database.php';
+require '../login-daftar/database.php';
 
 // Query untuk "Konten-1" Bisnis
 $stmt = $conn->prepare("SELECT articles.*, users.username AS penulis 
@@ -93,7 +93,7 @@ $sorotanArticles = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="header-container">
             <div class="left-section">
                 <div class="logo">
-                    <a href="beranda.php">
+                    <a href="../beranda.php">
                         <img src="../gambar/LOGOO.png" alt="Logo">
                     </a>
                 </div>
@@ -123,20 +123,20 @@ $sorotanArticles = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 <img src="../gambar/icons8-user-100.png" id="profil-icon" alt="Admin Profile">
                             </a>
                         <?php elseif ($_SESSION["role"] === "penulis"): ?>
-                            <a href="../penulis/profile.php">
+                            <a href="../Penulis/profile.php">
                                 <img src="../gambar/icons8-user-100.png" id="profil-icon" alt="Penulis Profile">
                             </a>
                         <?php elseif ($_SESSION["role"] === "pengguna"): ?>
-                            <a href="../pengguna/profile_pengguna.php">
+                            <a href="../Pengguna/profile_pengguna.php">
                                 <img src="../gambar/icons8-user-100.png" id="profil-icon" alt="Pengguna Profile">
                             </a>
                         <?php endif; ?>
                     </div>
                 <?php else: ?>
-                    <a href="../pagelogin.html">
+                    <a href="../login-daftar/pagelogin.html">
                         <button id="login-btn">MASUK</button>
                     </a>
-                    <a href="../pageDaftar.html">
+                    <a href="../login-daftar/pageDaftar.html">
                         <button id="daftar-btn">DAFTAR</button>
                     </a>
                 <?php endif; ?>
@@ -201,7 +201,7 @@ $sorotanArticles = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="konten-terbaru">
             <?php foreach ($konten2ArticlesBisnis as $article): ?>
                 <div class="panel">
-                    <a href="penulis/artikel.php?id=<?= $article["id"] ?>">
+                    <a href="../Penulis/artikel.php?id=<?= $article["id"] ?>">
                         <img src="../assets/<?= htmlspecialchars($article["gambar"]) ?>" id="gambar-konten2" alt="<?= htmlspecialchars($article["judul"]) ?>">
                     </a>
                     <a href="../penulis/artikel.php?id=<?= $article["id"] ?>" class="judul-link">

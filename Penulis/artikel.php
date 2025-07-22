@@ -3,7 +3,7 @@ session_start();
 $loggedIn = isset($_SESSION['user_id']); 
 $username = $loggedIn ? $_SESSION['username'] : ''; 
 
-require '../database.php';
+require '../login-daftar/database.php';
 
 
 if (!isset($_GET['id'])) {

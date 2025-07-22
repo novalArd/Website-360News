@@ -17,7 +17,7 @@ document.getElementById('searchInput').addEventListener('input', function () {
                     const resultDiv = document.createElement('div');
                     resultDiv.className = 'result-item';
                     resultDiv.innerHTML = `
-                        <a href="penulis/artikel.php?id=${article.id}">${article.judul}</a>
+                        <a href="Penulis/artikel.php?id=${article.id}">${article.judul}</a>
                     `;
                     resultsContainer.appendChild(resultDiv);
                 });

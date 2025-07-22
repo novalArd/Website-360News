@@ -9,9 +9,9 @@ togglePassword.addEventListener('click', () => {
     passwordInput.setAttribute('type', type);
 
     if (type === 'password') {
-        togglePassword.src = 'gambar/hide.png'; 
+        togglePassword.src = '/php-main/gambar/hide.png'; 
     } else {
-        togglePassword.src = 'gambar/view.png'; 
+        togglePassword.src = '/php-main/gambar/view.png'; 
     }
 });
 
@@ -20,9 +20,9 @@ togglePassword2.addEventListener('click', () => {
     passwordInput2.setAttribute('type', type);
 
     if (type === 'password') {
-        togglePassword2.src = 'gambar/hide.png'; 
+        togglePassword2.src = '/php-main/gambar/hide.png'; 
     } else {
-        togglePassword2.src = 'gambar/view.png'; 
+        togglePassword2.src = '/php-main/gambar/view.png'; 
     }
 });
 

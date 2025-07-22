@@ -2,7 +2,7 @@
 session_start(); // Memulai session
 $loggedIn = isset($_SESSION['user_id']); 
 $username = $loggedIn ? $_SESSION['username'] : ''; 
-require 'database.php'; // Koneksi database
+require 'login-daftar/database.php'; // Koneksi database
 
 
 // Query untuk "Konten-1" Beranda
@@ -161,15 +161,15 @@ $trendingInternasional = getTrendingArticles($conn, 'Internasional');
 						<a href="Admin/profile_admin.php"><img src="gambar/icons8-user-100.png" id="profil-icon" alt="" /></a>
 						<!-- Tautan ke profil admin -->
 						<?php elseif ($_SESSION['role'] === 'penulis'): ?>
-						<a href="penulis/profile.php"><img src="gambar/icons8-user-100.png" id="profil-icon" alt="" /></a>
+						<a href="Penulis/profile.php"><img src="gambar/icons8-user-100.png" id="profil-icon" alt="" /></a>
 						<!-- Tautan ke profil penulis -->
 						<?php elseif ($_SESSION['role'] === 'pengguna'): ?>
-						<a href="pengguna/profile_pengguna.php"><img src="gambar/icons8-user-100.png" id="profil-icon" alt="" /></a>
+						<a href="Pengguna/profile_pengguna.php"><img src="gambar/icons8-user-100.png" id="profil-icon" alt="" /></a>
 						<?php endif; ?>
 					</div>
 					<?php else: ?>
-					<a href="pagelogin.html"><button id="login-btn">MASUK</button></a>
-					<a href="pageDaftar.html"><button id="daftar-btn">DAFTAR</button></a>
+					<a href="/php-main/login-daftar/pagelogin.html"><button id="login-btn">MASUK</button></a>
+					<a href="/php-main/login-daftar/pageDaftar.html"><button id="daftar-btn">DAFTAR</button></a>
 					<?php endif; ?>
 				</div>
 			</div>

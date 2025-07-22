@@ -1,5 +1,5 @@
 <?php
-require 'database.php'; // Pastikan file database Anda sudah terhubung
+require '/login-daftar/database.php';
 
 // Ambil query pencarian dari parameter URL
 $query = isset($_GET['q']) ? trim($_GET['q']) : '';

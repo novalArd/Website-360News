@@ -5,7 +5,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     exit;
 }
 
-require '../database.php'; 
+require '../login-daftar/database.php'; 
 
 $userId = $_SESSION['user_id'];
 $stmt = $conn->prepare("SELECT * FROM users WHERE id = :id");
@@ -57,7 +57,7 @@ $totalVerified = $result['total_verified'] ?? 0;
         <li class="edit-artikel"><a href="edit_artikel_admin.php">Edit Artikel</a></li>
         <li class="semua-artikel"><a href="artikel_saya_admin.php">Semua Artikel</a></li>
       </ul>
-    <a href="../logout.php" class="logout">Logout</a>
+    <a href="../login-daftar/logout.php" class="logout">Logout</a>
   </aside>
 
     <!-- Main Content -->

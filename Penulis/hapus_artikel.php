@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../database.php';
+require '../login-daftar/database.php';
 
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'penulis') {
     die("Akses ditolak. Harap login terlebih dahulu.");

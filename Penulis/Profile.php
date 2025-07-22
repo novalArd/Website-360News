@@ -5,7 +5,7 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-require '../database.php'; 
+require '../login-daftar/database.php'; 
 
 $userId = $_SESSION['user_id'];
 $stmt = $conn->prepare("SELECT * FROM users WHERE id = :id");
@@ -54,7 +54,7 @@ $totalLikes = $result['total_likes'] ?? 0;
         <li><a id="artikelSaya" href="artikel_saya.php">Artikel Saya</a></li>
         <li><a id="hapusArtikel" href="hapus_artikel.php">Hapus Artikel</a></li>
       </ul>
-    <a href="../logout.php" class="logout">Logout</a>
+    <a href="../login-daftar/logout.php" class="logout">Logout</a>
   </aside>
 
     <!-- Main Content -->
